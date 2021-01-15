@@ -1,0 +1,15 @@
+div {
+    height: 65vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(190, 190, 219);
+}
+
+.active {
+    background-color: rgb(78, 78, 121);
+    color: white;
+    font-weight: bold;
+}

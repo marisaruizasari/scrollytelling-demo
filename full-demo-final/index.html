@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- our stylsheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header>Scrollama sticky side & D3 bar chart transition example</header> -->
+    <main>
+        <section id="scrolly">
+            <article>
+              <div class="step" data-step="stacked">
+                <p>Our data is displayed in a stacked bar chart</p>
+              </div>
+              <div class="step" data-step="grouped">
+                <p>Our data is displayed in a grouped bar chart</p>
+              </div>
+              <div class="step" data-step="percent">
+                <p>Our data is displayed in a percentage bar chart</p>
+              </div>
+            </article>
+    
+            <figure>
+              <p></p>
+            </figure>
+          </section>
+    
+          <section id="outro">
+              Add the rest of your content here!
+          </section>
+    </main>
+
+    <!-- include d3, intersection observer, and scrollama -->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+     <!-- include our script last -->
+    <script src="script.js"></script>
+</body>
+</html>
